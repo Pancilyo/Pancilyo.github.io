@@ -28,7 +28,7 @@ node -v
 npm-v
 ```
 
-![](使用hexo搭建个人博客/image-20200725131425100.png)
+![](http://s55.99854.men/2020/07/25/2e885be18dcf63d592279a8736316a75.png)
 
 
 
@@ -52,7 +52,7 @@ npm install -g hexo-cli
 hexo init <项目名称>
 ```
 
-![](使用hexo搭建个人博客/image-20200725132809692.png)
+![](http://s56.99854.men/2020/07/25/021d155efe175ba88a6d3b0db759f543.png)
 
 通过VScode软件打开初始化的博客（我这里命名为了test）
 
@@ -64,11 +64,11 @@ hexo init <项目名称>
 hexo s
 ```
 
-![](使用hexo搭建个人博客/image-20200725133651823.png)
+![](http://s57.99854.men/2020/07/25/78e42fd27d830575afc3427cdc69e677.png)
 
 通过 http://localhost:4000 访问本地hexo服务
 
-![](使用hexo搭建个人博客/image-20200725133817847.png)
+![](http://s58.99854.men/2020/07/25/f92811e06bb6ba7bd9255f18d14abe98.png)
 
 ## 二、更换博客主题（hexo-theme-matery）
 
@@ -90,11 +90,11 @@ git clone https://github.com/blinkfox/hexo-theme-matery.git
 
 将博客文件夹下的配置文件`_config.yml`的主题`theme`改成：`hexo-theme-matery`
 
-![](使用hexo搭建个人博客/image-20200725140219653.png)
+![](http://s59.99854.men/2020/07/25/bad0b476b3389e116f972f12b51b7367.png)
 
 更换完成重新运行服务：
 
-![](使用hexo搭建个人博客/image-20200725140922499.png)
+![](http://s51.99854.men/2020/07/25/82405b29bb72df6c1c59a70e126db370.png)
 
 主题已成功修改
 
@@ -102,7 +102,7 @@ git clone https://github.com/blinkfox/hexo-theme-matery.git
 
 将博客文件夹下的配置文件`_config.yml`的语言`language`改为`zh-CN`
 
-![](使用hexo搭建个人博客/image-20200725141430234.png)
+![](http://s55.99854.men/2020/07/25/bba8d69d07539501553eeb0ede9be530.png)
 
 ### 4.修改主题项中的配置
 
@@ -350,7 +350,7 @@ feed:
 
 ### 1.新建仓库
 
-![](使用hexo搭建个人博客/image-20200725152023656.png)
+![](http://s53.99854.men/2020/07/25/30af03a5add422676d003ed6a060ad56.png)
 
 ### 2.初始化仓库
 
@@ -368,7 +368,7 @@ git remote add origin <远程仓库地址>
 
 
 
-![](使用hexo搭建个人博客/image-20200725152722867.png)
+![](http://s55.99854.men/2020/07/25/87bc070ce6a3f3c1fc002581a632c86f.png)
 
 ### 3.安装hexo-depoyler-git依赖
 
@@ -395,11 +395,11 @@ npm run deploy
 
 查看站点是否已被部署成功打开github仓库中`setting`选项，拉下去找到`GitHub Pages`
 
-![显示此页面即部署成功](使用hexo搭建个人博客/image-20200725155309299.png)
+![显示此页面即部署成功](http://s56.99854.men/2020/07/25/d683b116ce2b6dda8dc6b52bac4e7daa.png)
 
 打开站点查看
 
-![站点已成功部署，并且可以访问](使用hexo搭建个人博客/image-20200725155434288.png)
+![站点已成功部署，并且可以访问](http://s57.99854.men/2020/07/25/ff6394583e074bd42d5214ba0a47e819.png)
 
 ## 四、实现Github自动化部署
 
@@ -414,7 +414,7 @@ git commit -m 'feat:blog init'
 
 ### 2.切换分支 myblog
 
-![](使用hexo搭建个人博客/image-20200725160131082.png)
+![](http://s51.99854.men/2020/07/25/bace8411f7f574a2327da185fb9b3e16.png)
 
 ### 3.将myblog分支push到github中
 
@@ -467,11 +467,11 @@ git push
 
 测试一下github action是否生效，修改一下文章内容并提交
 
-![有黄点表示触发了github action](使用hexo搭建个人博客/image-20200725163206393.png)
+![有黄点表示触发了github action](http://s52.99854.men/2020/07/25/497f61e0ad746fa10fba4fb65a009262.png)
 
 点进去查看：
 
-![](使用hexo搭建个人博客/image-20200725163250287.png)
+![](http://s53.99854.men/2020/07/25/58955aeebd74fd7efc7c30153f59438f.png)
 
 自此自动化部署已完成。
 

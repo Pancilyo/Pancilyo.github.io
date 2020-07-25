@@ -20,7 +20,7 @@ npm install https://github.com/7ym0n/hexo-asset-image --sa
 
 2.设置Typora中图片储存路径
 
-![](Hexo插件（一）：使用Markdowm显示图片/image-20200725202841927.png)
+![](http://s54.99854.men/2020/07/25/b4f68e944fe1db8c6c2f709fe831629f.png)
 
 每次插入图片都可以将图片复制到当前目录下以标题命名的文件夹中
 
