@@ -598,7 +598,7 @@ prism_plugin:
 <h2 id="四、实现Github自动化部署"><a href="#四、实现Github自动化部署" class="headerlink" title="四、实现Github自动化部署"></a>四、实现Github自动化部署</h2><p>由于上面操作中master分支已被占用，我们要把源代码提交到另外一个分支上</p>
 <h3 id="1-首先commit本地代码"><a href="#1-首先commit本地代码" class="headerlink" title="1.首先commit本地代码"></a>1.首先commit本地代码</h3><pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> add <span class="token keyword">.</span>
 <span class="token function">git</span> commit -m <span class="token string">'feat:blog init'</span></code></pre>
-<h3 id="2-切换分支-myblog"><a href="#2-切换分支-myblog" class="headerlink" title="2.切换分支 myblog"></a>2.切换分支 myblog</h3><p><img src="/2020/07/25/shi-yong-hexo-da-jian-ge-ren-bo-ke/image-20200725160131082.png" alt="image-20200725160131082"></p>
+<h3 id="2-切换分支-myblog"><a href="#2-切换分支-myblog" class="headerlink" title="2.切换分支 myblog"></a>2.切换分支 myblog</h3><p><img src="/2020/07/25/shi-yong-hexo-da-jian-ge-ren-bo-ke/image-20200725160131082.png" alt=""></p>
 <h3 id="3-将myblog分支push到github中"><a href="#3-将myblog分支push到github中" class="headerlink" title="3.将myblog分支push到github中"></a>3.将myblog分支push到github中</h3><pre class=" language-bash"><code class="language-bash"><span class="token function">git</span> push --set-upstream origin myblog</code></pre>
 <h3 id="4-配置github-actions"><a href="#4-配置github-actions" class="headerlink" title="4.配置github actions"></a>4.配置github actions</h3><p>在hexo根目录下创建文件<code>deploy.yml</code>，文件路径为：<code>.github/workflows/deploy.yml</code></p>
 <details>
@@ -773,19 +773,19 @@ prism_plugin:
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/07/25/hexo-cha-jian-yi-shi-yong-markdowm-xian-shi-tu-pian/">
+                <a href="/2020/07/25/hello-world/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="Hexo插件（一）：使用Markdowm显示图片">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
                         
-                        <span class="card-title">Hexo插件（一）：使用Markdowm显示图片</span>
+                        <span class="card-title">Hello World</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            解决Hexo中无法用Markdown格式插入图片到文章中
+                            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
                         
                     </div>
                     <div class="publish-info">
@@ -799,18 +799,6 @@ prism_plugin:
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Hexo/">
-                        <span class="chip bg-color">Hexo</span>
-                    </a>
-                    
-                    <a href="/tags/Markdown/">
-                        <span class="chip bg-color">Markdown</span>
-                    </a>
-                    
                 </div>
                 
             </div>
