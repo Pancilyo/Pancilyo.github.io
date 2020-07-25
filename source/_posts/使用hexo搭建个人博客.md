@@ -414,7 +414,7 @@ git commit -m 'feat:blog init'
 
 ### 2.切换分支 myblog
 
-![image-20200725160131082](使用hexo搭建个人博客/image-20200725160131082.png)
+![](使用hexo搭建个人博客/image-20200725160131082.png)
 
 ### 3.将myblog分支push到github中
 
