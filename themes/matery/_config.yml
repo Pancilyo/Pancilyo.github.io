@@ -369,7 +369,7 @@ minivaline:
 githubLink:
   enable: true
   url: https://github.com/Pancilyo
-  title: Fork Me
+  title: 关注我
 
 # The password verification feature of read post. To use this feature,
 # activate the configuration item and write the 'password' key and Cipher in the post's Front-matter.
