@@ -28,7 +28,7 @@ node -v
 npm-v
 ```
 
-![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20200725131425100.png)
+![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/MdPicture/image-20200725131425100.png)
 
 
 
@@ -52,7 +52,7 @@ npm install -g hexo-cli
 hexo init <项目名称>
 ```
 
-![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20200725132809692.png)
+![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/MdPicture/image-20200725132809692.png)
 
 通过VScode软件打开初始化的博客（我这里命名为了test）
 
@@ -64,11 +64,11 @@ hexo init <项目名称>
 hexo s
 ```
 
-![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20200725133651823.png)
+![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/MdPicture/image-20200725133651823.png)
 
 通过 http://localhost:4000 访问本地hexo服务
 
-![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20200725133817847.png)
+![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/MdPicture/image-20200725133817847.png)
 
 ## 二、更换博客主题（hexo-theme-matery）
 
@@ -90,11 +90,11 @@ git clone https://github.com/blinkfox/hexo-theme-matery.git
 
 将博客文件夹下的配置文件`_config.yml`的主题`theme`改成：`hexo-theme-matery`
 
-![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20200725140219653.png)
+![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/MdPicture/image-20200725140219653.png)
 
 更换完成重新运行服务：
 
-![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20200725140922499.png)
+![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/MdPicture/image-20200725140922499.png)
 
 主题已成功修改
 
@@ -102,7 +102,7 @@ git clone https://github.com/blinkfox/hexo-theme-matery.git
 
 将博客文件夹下的配置文件`_config.yml`的语言`language`改为`zh-CN`
 
-![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20200725141430234.png)
+![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/MdPicture/image-20200725141430234.png)
 
 ### 4.修改主题项中的配置
 
@@ -350,7 +350,7 @@ feed:
 
 ### 1.新建仓库
 
-![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20200725152023656.png)
+![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/MdPicture/image-20200725152023656.png)
 
 ### 2.初始化仓库
 
@@ -368,7 +368,7 @@ git remote add origin <远程仓库地址>
 
 
 
-![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20200725152722867.png)
+![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/MdPicture/image-20200725152722867.png)
 
 ### 3.安装hexo-depoyler-git依赖
 
@@ -395,11 +395,11 @@ npm run deploy
 
 查看站点是否已被部署成功打开github仓库中`setting`选项，拉下去找到`GitHub Pages`
 
-![显示此页面即部署成功](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20200725155309299.png)
+![显示此页面即部署成功](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/MdPicture/image-20200725155309299.png)
 
 打开站点查看
 
-![站点已成功部署，并且可以访问](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20200725155434288.png)
+![站点已成功部署，并且可以访问](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/MdPicture/image-20200725155434288.png)
 
 ## 四、实现Github自动化部署
 
@@ -414,7 +414,7 @@ git commit -m 'feat:blog init'
 
 ### 2.切换分支 myblog
 
-![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20200725160131082.png)
+![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/MdPicture/image-20200725160131082.png)
 
 ### 3.将myblog分支push到github中
 
@@ -467,11 +467,11 @@ git push
 
 测试一下github action是否生效，修改一下文章内容并提交
 
-![有黄点表示触发了github action](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20200725163206393.png)
+![有黄点表示触发了github action](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/MdPicture/image-20200725163206393.png)
 
 点进去查看：
 
-![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20200725163250287.png)
+![](https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/MdPicture/image-20200725163250287.png)
 
 自此自动化部署已完成。
 
