@@ -466,7 +466,7 @@
 <p><img src="https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/MdPicture/image-20200725133651823.png" alt=""></p>
 <p>通过 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 访问本地hexo服务</p>
 <p><img src="https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/MdPicture/image-20200725133817847.png" alt=""></p>
-<h2 id="二、更换博客主题（hexo-theme-matery）"><a href="#二、更换博客主题（hexo-theme-matery）" class="headerlink" title="二、更换博客主题（hexo-theme-matery）"></a>二、更换博客主题（hexo-theme-matery）</h2><p><a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md">hexo-theme-matery中文文档</a></p>
+<h2 id="二、更换博客主题（hexo-theme-matery）"><a href="#二、更换博客主题（hexo-theme-matery）" class="headerlink" title="二、更换博客主题（hexo-theme-matery）"></a>二、更换博客主题（hexo-theme-matery）</h2><p><a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md" target="_blank" rel="noopener">hexo-theme-matery中文文档</a></p>
 <h3 id="1-下载"><a href="#1-下载" class="headerlink" title="1.下载"></a>1.下载</h3><p>当你看到这里的时候，应该已经有一个自己的 <a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo</a> 博客了。如果还没有的话，不妨使用 Hexo 和 <a href="https://www.appinn.com/markdown/" target="_blank" rel="noopener">Markdown</a> 来写博客和文章。</p>
 <p>点击 <a href="https://codeload.github.com/blinkfox/hexo-theme-matery/zip/master" target="_blank" rel="noopener">这里</a> 下载 <code>master</code> 分支的最新稳定版的代码，解压缩后，将 <code>hexo-theme-matery</code> 的文件夹复制到你 Hexo 的 <code>themes</code> 文件夹中即可。</p>
 <p>当然你也可以在你的 <code>themes</code> 文件夹下使用 <code>Git clone</code> 命令来下载:</p>
@@ -478,7 +478,7 @@
 <p>主题已成功修改</p>
 <h3 id="3-更换中文"><a href="#3-更换中文" class="headerlink" title="3.更换中文"></a>3.更换中文</h3><p>将博客文件夹下的配置文件<code>_config.yml</code>的语言<code>language</code>改为<code>zh-CN</code></p>
 <p><img src="https://cdn.jsdelivr.net/gh/pancilyo/pancilyo.github.io@myblog/source/_posts/MdPicture/image-20200725141430234.png" alt=""></p>
-<h3 id="4-修改主题项中的配置"><a href="#4-修改主题项中的配置" class="headerlink" title="4.修改主题项中的配置"></a>4.修改主题项中的配置</h3><p>根据<a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md">hexo-theme-matery中文文档</a>可自行添加功能项</p>
+<h3 id="4-修改主题项中的配置"><a href="#4-修改主题项中的配置" class="headerlink" title="4.修改主题项中的配置"></a>4.修改主题项中的配置</h3><p>根据<a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md" target="_blank" rel="noopener">hexo-theme-matery中文文档</a>可自行添加功能项</p>
 <h4 id="新建分类-categories-页"><a href="#新建分类-categories-页" class="headerlink" title="新建分类 categories 页"></a>新建分类 categories 页</h4><p><code>categories</code> 页是用来展示所有分类的页面，如果在你的博客 <code>source</code> 目录下还没有 <code>categories/index.md</code> 文件，那么你就需要新建一个，命令如下：</p>
 <pre><code>hexo new page "categories"</code></pre><p>编辑你刚刚新建的页面文件 <code>/source/categories/index.md</code>，至少需要以下内容：</p>
 <pre><code>---
@@ -534,7 +534,7 @@ date: 2018-09-30 17:25:30
 type: "404"
 layout: "404"
 description: "Oops～，我崩溃了！找不到你想要的页面 :("
----</code></pre><h4 id="代码高亮"><a href="#代码高亮" class="headerlink" title="代码高亮"></a>代码高亮</h4><p>由于 Hexo 自带的代码高亮主题显示不好看，所以主题中使用到了 <a href="https://github.com/ele828/hexo-prism-plugin">hexo-prism-plugin</a> 的 Hexo 插件来做代码高亮，安装命令如下：</p>
+---</code></pre><h4 id="代码高亮"><a href="#代码高亮" class="headerlink" title="代码高亮"></a>代码高亮</h4><p>由于 Hexo 自带的代码高亮主题显示不好看，所以主题中使用到了 <a href="https://github.com/ele828/hexo-prism-plugin" target="_blank" rel="noopener">hexo-prism-plugin</a> 的 Hexo 插件来做代码高亮，安装命令如下：</p>
 <pre><code>npm i -S hexo-prism-plugin</code></pre><p>然后，修改 Hexo 根目录下 <code>_config.yml</code> 文件中 <code>highlight.enable</code> 的值为 <code>false</code>，并新增 <code>prism</code> 插件相关的配置，主要配置如下：</p>
 <pre><code>highlight:
   enable: false
@@ -543,19 +543,19 @@ prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
   theme: 'tomorrow'
   line_number: false    # default false
-  custom_css:</code></pre><h4 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h4><p>本主题中还使用到了 <a href="https://github.com/wzpan/hexo-generator-search">hexo-generator-search</a> 的 Hexo 插件来做内容搜索，安装命令如下：</p>
+  custom_css:</code></pre><h4 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h4><p>本主题中还使用到了 <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener">hexo-generator-search</a> 的 Hexo 插件来做内容搜索，安装命令如下：</p>
 <pre><code>npm install hexo-generator-search --save</code></pre><p>在 Hexo 根目录下的 <code>_config.yml</code> 文件中，新增以下的配置项：</p>
 <pre><code>search:
   path: search.xml
-  field: post</code></pre><h4 id="中文链接转拼音（建议安装）"><a href="#中文链接转拼音（建议安装）" class="headerlink" title="中文链接转拼音（建议安装）"></a>中文链接转拼音（建议安装）</h4><p>如果你的文章名称是中文的，那么 Hexo 默认生成的永久链接也会有中文，这样不利于 <code>SEO</code>，且 <code>gitment</code> 评论对中文链接也不支持。我们可以用 <a href="https://github.com/viko16/hexo-permalink-pinyin">hexo-permalink-pinyin</a> Hexo 插件使在生成文章时生成中文拼音的永久链接。</p>
+  field: post</code></pre><h4 id="中文链接转拼音（建议安装）"><a href="#中文链接转拼音（建议安装）" class="headerlink" title="中文链接转拼音（建议安装）"></a>中文链接转拼音（建议安装）</h4><p>如果你的文章名称是中文的，那么 Hexo 默认生成的永久链接也会有中文，这样不利于 <code>SEO</code>，且 <code>gitment</code> 评论对中文链接也不支持。我们可以用 <a href="https://github.com/viko16/hexo-permalink-pinyin" target="_blank" rel="noopener">hexo-permalink-pinyin</a> Hexo 插件使在生成文章时生成中文拼音的永久链接。</p>
 <p>安装命令如下：</p>
 <pre><code>npm i hexo-permalink-pinyin --save</code></pre><p>在 Hexo 根目录下的 <code>_config.yml</code> 文件中，新增以下的配置项：</p>
 <pre><code>permalink_pinyin:
   enable: true
   separator: '-' # default: '-'</code></pre><blockquote>
-<p><strong>注</strong>：除了此插件外，<a href="https://github.com/rozbo/hexo-abbrlink">hexo-abbrlink</a> 插件也可以生成非中文的链接。</p>
+<p><strong>注</strong>：除了此插件外，<a href="https://github.com/rozbo/hexo-abbrlink" target="_blank" rel="noopener">hexo-abbrlink</a> 插件也可以生成非中文的链接。</p>
 </blockquote>
-<h4 id="文章字数统计插件（建议安装）"><a href="#文章字数统计插件（建议安装）" class="headerlink" title="文章字数统计插件（建议安装）"></a>文章字数统计插件（建议安装）</h4><p>如果你想要在文章中显示文章字数、阅读时长信息，可以安装 <a href="https://github.com/willin/hexo-wordcount">hexo-wordcount</a>插件。</p>
+<h4 id="文章字数统计插件（建议安装）"><a href="#文章字数统计插件（建议安装）" class="headerlink" title="文章字数统计插件（建议安装）"></a>文章字数统计插件（建议安装）</h4><p>如果你想要在文章中显示文章字数、阅读时长信息，可以安装 <a href="https://github.com/willin/hexo-wordcount" target="_blank" rel="noopener">hexo-wordcount</a>插件。</p>
 <p>安装命令如下：</p>
 <pre><code>npm i --save hexo-wordcount</code></pre><p>然后只需在本主题下的 <code>_config.yml</code> 文件中，将各个文章字数相关的配置激活即可：</p>
 <pre><code>postInfo:
@@ -571,7 +571,7 @@ prism_plugin:
   className: github-emoji
   inject: true
   styles:
-  customEmojis:</code></pre><h4 id="添加-RSS-订阅支持（可选的）"><a href="#添加-RSS-订阅支持（可选的）" class="headerlink" title="添加 RSS 订阅支持（可选的）"></a>添加 RSS 订阅支持（可选的）</h4><p>本主题中还使用到了 <a href="https://github.com/hexojs/hexo-generator-feed">hexo-generator-feed</a> 的 Hexo 插件来做 <code>RSS</code>，安装命令如下：</p>
+  customEmojis:</code></pre><h4 id="添加-RSS-订阅支持（可选的）"><a href="#添加-RSS-订阅支持（可选的）" class="headerlink" title="添加 RSS 订阅支持（可选的）"></a>添加 RSS 订阅支持（可选的）</h4><p>本主题中还使用到了 <a href="https://github.com/hexojs/hexo-generator-feed" target="_blank" rel="noopener">hexo-generator-feed</a> 的 Hexo 插件来做 <code>RSS</code>，安装命令如下：</p>
 <pre><code>npm install hexo-generator-feed --save</code></pre><p>在 Hexo 根目录下的 <code>_config.yml</code> 文件中，新增以下的配置项：</p>
 <pre><code>feed:
   type: atom
@@ -684,7 +684,7 @@ prism_plugin:
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://github.com/Pancilyo/2020/07/25/shi-yong-hexo-da-jian-ge-ren-bo-ke/">https://github.com/Pancilyo/2020/07/25/shi-yong-hexo-da-jian-ge-ren-bo-ke/</a>
+                    <a href="https://pancilyo.github.io/2020/07/25/shi-yong-hexo-da-jian-ge-ren-bo-ke/">https://pancilyo.github.io/2020/07/25/shi-yong-hexo-da-jian-ge-ren-bo-ke/</a>
                 </span>
             </div>
             <div class="reprint__notice">
