@@ -1,5 +1,5 @@
 ---
-title: Hexo插件（一）：使用Markdowm显示图片
+title: Hexo插件（一）：使用Markdown显示图片
 date: 2020-07-25 20:21:40
 summary: 解决Hexo中无法用Markdown格式插入图片到文章中
 cover: true
